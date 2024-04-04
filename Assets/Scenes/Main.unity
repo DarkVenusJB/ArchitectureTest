@@ -1096,6 +1096,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e0562afa3c1cd444ba78361d1f490a7, type: 3}
+--- !u!1 &1648415130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1269585577436207702, guid: fe691d08050018a4b9669e93dfc6295a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1269585577600430104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1648415131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648415130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e2e867459057041a31e4e152a54768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAngleX: 0
+  distance: 0
+  offsetY: 0
 --- !u!1001 &1723488952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1171,8 +1192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21882ce5fe52cc64c8dc3b5a7ed48511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterController: {fileID: 1770012380}
-  _movementSpeed: 4
+  characterController: {fileID: 1770012380}
+  movementSpeed: 4
 --- !u!143 &1770012380
 CharacterController:
   m_ObjectHideFlags: 0
