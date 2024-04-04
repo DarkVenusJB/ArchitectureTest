@@ -19,11 +19,11 @@ namespace CodeBase.Hero
     
     public event Action<AnimatorState> StateEntered;
     public event Action<AnimatorState> StateExited;
-   
-    public AnimatorState State { get; private set; }
+
+    [SerializeField] private Animator Animator;
+    [SerializeField] CharacterController CharacterController;
     
-    public Animator Animator;
-    public CharacterController CharacterController;
+    public AnimatorState State { get; private set; }
 
     private void Update()
     {

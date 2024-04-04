@@ -772,6 +772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 926451781}
+  - component: {fileID: 926451780}
   m_Layer: 0
   m_Name: GameBootstrapper
   m_TagString: Untagged
@@ -779,6 +780,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &926451780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926451779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8197a4344873ca64cbf57277d03b4a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &926451781
 Transform:
   m_ObjectHideFlags: 0
@@ -1146,6 +1159,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1906629523}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1770012379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770012378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21882ce5fe52cc64c8dc3b5a7ed48511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _characterController: {fileID: 1770012380}
+  _movementSpeed: 4
 --- !u!143 &1770012380
 CharacterController:
   m_ObjectHideFlags: 0
